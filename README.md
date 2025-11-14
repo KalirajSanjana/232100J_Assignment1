@@ -2,10 +2,15 @@
 
 This small Node.js module is designed to mimic the basic idea behind modern movie-rating websites such as IMDb.
 For reference, the real IMDb website’s search page can be found here:
-https://www.imdb.com/search/title/
+[https://www.imdb.com/search/title/](url)
 
 The goal of this project is to provide a simple movie system where you can add films, write reviews, calculate average ratings, and perform basic searches.
 All information is stored inside JavaScript arrays, so there is no need for an external database.
+
+Below is a screenshot of IMDb’s “Advanced Title Search” page, which shows the type of features this module is based on.
+<img width="1027" height="913" alt="image" src="https://github.com/user-attachments/assets/395f1fc7-2850-459e-a604-af52a534926e" />
+
+The module does not recreate every feature shown in the image, but it includes simplified versions such as searching, filtering by year range, and sorting A–Z.
 
 ---------------------------------------------------------------------------------------------------------------------
 Getting Started
