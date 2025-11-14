@@ -7,6 +7,7 @@ https://www.imdb.com/search/title/
 The goal of this project is to provide a simple movie system where you can add films, write reviews, calculate average ratings, and perform basic searches.
 All information is stored inside JavaScript arrays, so there is no need for an external database.
 
+---------------------------------------------------------------------------------------------------------------------
 Getting Started
 
 1. Install Node.js on your computer.
@@ -15,7 +16,7 @@ Getting Started
 4.Run your test file using the command: node app.js
 
 If everything is placed correctly, the terminal will display the results of all functions that you call.
-
+---------------------------------------------------------------------------------------------------------------------
 Function Guide – How to Use the Module
 
 Below is a quick reference guide for each feature in the module, along with example calls and the type of information each function needs.
