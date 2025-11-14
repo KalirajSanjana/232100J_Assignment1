@@ -13,9 +13,10 @@ Getting Started
 1. Install Node.js on your computer.
 2. Copy the file imdb.js into a new project folder.
 3. Create a second file (usually called app.js) to test the functions found in imdb.js.
-4.Run your test file using the command: node app.js
-
+4. Run your test file using the command: node app.js
+   
 If everything is placed correctly, the terminal will display the results of all functions that you call.
+
 ---------------------------------------------------------------------------------------------------------------------
 Function Guide – How to Use the Module
 
