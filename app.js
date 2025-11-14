@@ -3,7 +3,7 @@
 // including adding movies, reviews, searching, filtering, and sorting.
 // Run using:  node app.js
 
-const imdb = require("./imdb.js");
+const imdb = require("./sanjana_imdb.js");
 
 // ---------------------------------------------------------
 // 1. ADD MOVIE
@@ -79,3 +79,4 @@ console.log(imdb.ratingLabelFor(1));
 // DONE
 // ---------------------------------------------------------
 console.log("\n✅ All functions executed successfully!");
+
