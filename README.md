@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 : IMDB Node Module
 
 You will only need one file, ie, your node module, for this assignment.
 
