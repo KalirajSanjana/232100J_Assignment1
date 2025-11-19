@@ -76,7 +76,7 @@ If everything is placed correctly, the terminal will display the results of all 
 Below are example calls demonstrating how to use every function in the sanjana_imdb.js module.
 
 
-## ▶ **Import the Module**
+## **Import the Module**
 
 ```js
 const imdb = require("./sanjana_imdb.js");
