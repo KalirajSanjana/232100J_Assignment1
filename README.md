@@ -13,7 +13,7 @@ Below is a screenshot of IMDb’s “Advanced Title Search” page, which shows 
 The module does not recreate every feature shown in the image, but it includes simplified versions such as searching, filtering by year range, and sorting A–Z.
 
 ---------------------------------------------------------------------------------------------------------------------
-Getting Started
+# Getting Started
 
 1. Install Node.js on your computer.
 2. Copy the file sanjana_imdb.js into a new project folder.
