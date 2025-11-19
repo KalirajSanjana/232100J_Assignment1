@@ -161,8 +161,18 @@ imdb.sortByTitleAfterYearFilter(1995, 2015);
 ```js
 imdb.ratingLabelFor(1);
 ```
+--------------------------------------------------------------------------------------------------------------------
+# 📖 Reference / Inspiration
 
+Below is a screenshot of IMDb’s Advanced Title Search page, which inspired several features in this module:
+<img width="1027" height="913" alt="image" src="https://github.com/user-attachments/assets/c7644dcf-fd78-4531-a5a0-0796f449122b" />
 
+This module does not recreate every feature displayed in the screenshot, but it includes simplified versions such as:
+      -Keyword search
+      -Filtering by release year range
+      -Sorting movies A–Z
 
+For the real IMDb website, visit:
+🔗 https://www.imdb.com/search/title/
 
 
