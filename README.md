@@ -71,7 +71,7 @@ If everything is placed correctly, the terminal will display the results of all 
 
       Categorizes movies as Excellent, Average, or Poor based on their average rating.
 --------------------------------------------------------------------------------------------------------------------
-#📘 Usage Examples
+# 📘 Usage Examples
 
 Below are example calls demonstrating how to use every function in the sanjana_imdb.js module.
 
