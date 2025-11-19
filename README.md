@@ -30,44 +30,44 @@ If everything is placed correctly, the terminal will display the results of all 
 --------------------------------------------------------------------------------------------------------------------
 # 🧩 Module Features
 
- 1. Add Movies
+ **1. Add Movies**
 
       Adds a new movie entry with ID, title, genre, and year.
 
- 2. List All Movies
+ **2. List All Movies**
    
       Displays all stored movie objects.
 
- 3. Add Reviews
+ **3. Add Reviews**
 
       Stores reviews linked to movie IDs.
       The return message includes the movie title.
 
- 4. Calculate Average Rating
+ **4. Calculate Average Rating**
 
       Returns the movie’s title and its calculated average rating.
 
- 5. Search Movies
+ **5. Search Movies**
 
       Search by title or genre (case-insensitive).
 
- 6. List Movie Reviews
+ **6. List Movie Reviews**
 
       Returns all users and ratings for a specific movie (without movieId field).
 
- 7. Filter by Genre
+ **7. Filter by Genre**
 
       Returns all movies belonging to a selected genre.
 
- 8. Filter by Release Year
+ **8. Filter by Release Year**
 
       Returns movies released in a specific year.
 
- 9. Filter by Year Range & Sort A–Z
+ **9. Filter by Year Range & Sort A–Z**
 
       Filters movies within a year range, then sorts the result alphabetically.
 
-10. Bonus Feature – Rating Label
+**10. Bonus Feature – Rating Label**
 
       Categorizes movies as Excellent, Average, or Poor based on their average rating.
 --------------------------------------------------------------------------------------------------------------------
