@@ -92,3 +92,11 @@ Returns a simple label (“Excellent”, “Average”, or “Poor”) based on 
 Example: imdb.ratingLabelFor(1)
 Required parameters:
   -movieId (number)
+
+
+```bash
+├── Sanjana_Assignment1/
+│   ├── sanjana_imdb.js
+│   ├── app.js
+│   ├── README.md
+```
