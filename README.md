@@ -90,7 +90,7 @@ const imdb = require("./sanjana_imdb.js");
 imdb.addMovie(3, "Avatar", "Sci-Fi", 2009);
 ```
 
----
+
 
 ## 🎥 **2. List All Movies**
 
@@ -98,7 +98,7 @@ imdb.addMovie(3, "Avatar", "Sci-Fi", 2009);
 imdb.listMovies();
 ```
 
----
+
 
 ## ⭐ **3. Add a Review**
 
@@ -106,7 +106,7 @@ imdb.listMovies();
 imdb.addReview(1, "Sanjana", 10);
 ```
 
----
+
 
 ## 📊 **4. Get Average Rating**
 
@@ -114,7 +114,7 @@ imdb.addReview(1, "Sanjana", 10);
 imdb.getAverageRating(1);
 ```
 
----
+
 
 ## 🔍 **5. Search Movies (Title or Genre)**
 
@@ -122,7 +122,7 @@ imdb.getAverageRating(1);
 imdb.searchMovie("sci");
 ```
 
----
+
 
 ## 📝 **6. List Reviews for a Movie**
 
@@ -130,7 +130,7 @@ imdb.searchMovie("sci");
 imdb.listReviews(1);
 ```
 
----
+
 
 ## 🎭 **7. Filter Movies by Genre**
 
@@ -138,7 +138,7 @@ imdb.listReviews(1);
 imdb.filterByGenre("Sci-Fi");
 ```
 
----
+
 
 ## 📅 **8. Filter Movies by Year**
 
@@ -146,7 +146,7 @@ imdb.filterByGenre("Sci-Fi");
 imdb.filterByYear(2010);
 ```
 
----
+
 
 ## 🔄 **9. Filter by Year Range & Sort A–Z**
 
@@ -154,7 +154,7 @@ imdb.filterByYear(2010);
 imdb.sortByTitleAfterYearFilter(1995, 2015);
 ```
 
----
+
 
 ## 🏆 **10. Rating Label (Excellent / Average / Poor)**
 
@@ -162,7 +162,7 @@ imdb.sortByTitleAfterYearFilter(1995, 2015);
 imdb.ratingLabelFor(1);
 ```
 
----
+
 
 
 
