@@ -169,15 +169,15 @@ Below is a screenshot of IMDb’s Advanced Title Search page, which inspired sev
 
 This module does not recreate every feature displayed in the screenshot, but it includes simplified versions such as:
       
-      -Keyword search
+1. Keyword search
       
-      -Filter by year range
+2. Filter by year range
       
-      -Genre filtering
+3. Genre filtering
       
-      -Rating movies
+4. Rating movies
       
-      -Sorting A–Z
+5. Sorting movies A–Z
 
 For the real IMDb website, visit:
 🔗 https://www.imdb.com/search/title/
