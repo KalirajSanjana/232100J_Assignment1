@@ -75,5 +75,94 @@ If everything is placed correctly, the terminal will display the results of all 
 
 Below are example calls demonstrating how to use every function in the sanjana_imdb.js module.
 
+
+## ▶ **Import the Module**
+
+```js
 const imdb = require("./sanjana_imdb.js");
+```
+
+---
+
+## 🎬 **1. Add a Movie**
+
+```js
+imdb.addMovie(3, "Avatar", "Sci-Fi", 2009);
+```
+
+---
+
+## 🎥 **2. List All Movies**
+
+```js
+imdb.listMovies();
+```
+
+---
+
+## ⭐ **3. Add a Review**
+
+```js
+imdb.addReview(1, "Sanjana", 10);
+```
+
+---
+
+## 📊 **4. Get Average Rating**
+
+```js
+imdb.getAverageRating(1);
+```
+
+---
+
+## 🔍 **5. Search Movies (Title or Genre)**
+
+```js
+imdb.searchMovie("sci");
+```
+
+---
+
+## 📝 **6. List Reviews for a Movie**
+
+```js
+imdb.listReviews(1);
+```
+
+---
+
+## 🎭 **7. Filter Movies by Genre**
+
+```js
+imdb.filterByGenre("Sci-Fi");
+```
+
+---
+
+## 📅 **8. Filter Movies by Year**
+
+```js
+imdb.filterByYear(2010);
+```
+
+---
+
+## 🔄 **9. Filter by Year Range & Sort A–Z**
+
+```js
+imdb.sortByTitleAfterYearFilter(1995, 2015);
+```
+
+---
+
+## 🏆 **10. Rating Label (Excellent / Average / Poor)**
+
+```js
+imdb.ratingLabelFor(1);
+```
+
+---
+
+
 
