@@ -1,7 +1,7 @@
 # Assignment 1 : 🎬 Mini IMDb Movie Module
 
 --------------------------------------------------------------------------------------------------------------------
-#📘 Overview
+# 📘 Overview
 This project implements a simplified version of IMDb’s movie and review system.
 Users can add movies, store reviews, calculate average ratings, filter/search movies, and sort results.
 All data is stored using JavaScript arrays, acting as an in-memory database.
