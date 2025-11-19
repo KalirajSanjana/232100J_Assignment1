@@ -23,7 +23,7 @@ The module does not recreate every feature shown in the image, but it includes s
 If everything is placed correctly, the terminal will display the results of all functions that you call.
 
 ---------------------------------------------------------------------------------------------------------------------
-Function Guide – How to Use the Module
+# Function Guide – How to Use the Module
 
 Below is a quick reference guide for each feature in the module, along with example calls and the type of information each function needs.
 
