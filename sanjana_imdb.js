@@ -20,12 +20,12 @@ module.exports = {
 
   // Function 1: Add a new movie
   addMovie: function (id, title, genre, year) {
-    this.movies[this.movies.length] = 
+    this.movies.push(
     { id: id,
       title: title,
       genre: genre,
       year: year 
-    };
+    });
     return "Movie added: " + title;
   },
 
@@ -46,12 +46,12 @@ module.exports = {
     }
 
     // Add the review
-    this.reviews[this.reviews.length] =
+    this.reviews.push(
     {
       movieId: movieId,
       user: user,
       rating: rating
-    };
+    });
 
     // Return message including title
     return "Review added for movie: " + title;
@@ -91,7 +91,7 @@ module.exports = {
     for (var i = 0; i < this.movies.length; i++) {
       var m = this.movies[i];
       if (m.title.toLowerCase().indexOf(key) !== -1 || m.genre.toLowerCase().indexOf(key) !== -1) {
-        found[found.length] = m;
+        found.push(m);
       }
     }
     return found;
@@ -101,7 +101,7 @@ module.exports = {
   // Function 6: List all reviews for a movie 
   listReviews: function (movieId) {
 
-    // find the movie title
+  // find the movie title
     var title = "";
     for (var i = 0; i < this.movies.length; i++) {
       if (this.movies[i].id == movieId) {
@@ -113,16 +113,16 @@ module.exports = {
     var result = [];
     for (var j = 0; j < this.reviews.length; j++) {
       if (this.reviews[j].movieId == movieId) {
-        result[result.length] = {
+        result.push({
           user: this.reviews[j].user,
           rating: this.reviews[j].rating
-        };
+        });
       }
     }
 
     return {
-    movieTitle: title,
-    reviews: result
+      movieTitle: title,
+      reviews: result
     };
   },
 
@@ -135,7 +135,7 @@ module.exports = {
     // collect movies
     for (var i = 0; i < this.movies.length; i++) {
       if (this.movies[i].genre == genre) {
-        result[result.length] = this.movies[i];
+         result.push(this.movies[i]); 
       }
     }
 
@@ -154,7 +154,7 @@ module.exports = {
     // collect movies from that year
     for (var i = 0; i < this.movies.length; i++) {
       if (this.movies[i].year == year) {
-        result[result.length] = this.movies[i];
+         result.push(this.movies[i]); 
       }
     }
 
@@ -173,7 +173,7 @@ module.exports = {
     // Step 1: Filter by year range
     for (var i = 0; i < this.movies.length; i++) {
       if (this.movies[i].year >= startYear && this.movies[i].year <= endYear) {
-        result[result.length] = this.movies[i];
+        result.push(this.movies[i]);
       }
     }
 
@@ -207,7 +207,7 @@ module.exports = {
       }
     }
 
-    // Get average rating (number only)
+    // Get average rating 
     var total = 0, count = 0;
     for (var j = 0; j < this.reviews.length; j++) {
       if (this.reviews[j].movieId == movieId) {
@@ -229,3 +229,4 @@ module.exports = {
 
 
 };
+
